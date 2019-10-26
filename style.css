@@ -5,6 +5,7 @@ body {
 }
 nav {
     position: sticky;
+ 
     text-align: right;
     display: block;
     block-size: 70px;
@@ -48,88 +49,25 @@ h2 {
     font-size: 4rem;
     padding: 0% 0% 20% 0%;
 }
-/* 
-.animdated-words {
-    display: inline-block;
-}
 
-.animated-words span:nth-child(2) { 
-    -webkit-animation-delay: 3s; 
-    -ms-animation-delay: 3s; 
-    animation-delay: 3s; 
+/* .text-wrapper {
+    display: inline;
+} */
 
-}
-.animated-words span:nth-child(3) { 
-    -webkit-animation-delay: 6s; 
-    -ms-animation-delay: 6s; 
-    animation-delay: 6s; 
-    
-}
-.animated-words span:nth-child(4) { 
-    -webkit-animation-delay: 9s; 
-    -ms-animation-delay: 9s; 
-    animation-delay: 9s; 
-    
-}
-.animated-words span:nth-child(5) { 
-    -webkit-animation-delay: 12s; 
-    -ms-animation-delay: 12s; 
-    animation-delay: 12s; 
-    
-}
-.animated-words span:nth-child(6) { 
-    -webkit-animation-delay: 15s; 
-    -ms-animation-delay: 15s; 
-    animation-delay: 15s; 
-    
-}
-.animated-words span:nth-child(7) { 
-    -webkit-animation-delay: 18s; 
-    -ms-animation-delay: 18s; 
-    animation-delay: 18s; 
-    
-}
-.animated-words span:nth-child(8) { 
-    -webkit-animation-delay: 21s; 
-    -ms-animation-delay: 21s; 
-    animation-delay: 21s; 
-    
-}
-.animated-words span:nth-child(9) { 
-    -webkit-animation-delay: 24s; 
-    -ms-animation-delay: 24s; 
-    animation-delay: 24s; 
-    
-}
-.animated-words span:nth-child(10) { 
-    -webkit-animation-delay: 27s; 
-    -ms-animation-delay: 27s; 
-    animation-delay: 27s; 
-    
-}
-.animated-words span {
-    position: relative;
-    opacity: 0;
-    overflow: hidden;
-    -webkit-animation: animateWord 18s linear infinite 0s;
-    -ms-animation: animateWord 18s linear infinite 0s;
-    animation: animateWord 18s linear infinite 0s;
-}
-@-webkit-keyframes animateWord {
-    0% { opacity: 0; }
-    2% { opacity: 0; -webkit-transform: translateY(-30px); }
-    5% { opacity: 1; -webkit-transform: translateY(0px);}
-    17% { opacity: 1; -webkit-transform: translateY(0px); }
-    20% { opacity: 0; -webkit-transform: translateY(30px); }
-    80% { opacity: 0; }
-    100% { opacity: 0; }
-}
- */
 
-#blinker {
+#blinker1 {
     display: inline;
     animation:blinkingText 2s infinite;
 }
+
+#blinker2 {
+    display: inline;
+    animation:blinkingText 1.5s infinite;
+}
+#blinker3 {
+    display: inline;
+    animation:blinkingText 2s infinite;
+} 
 @keyframes blinkingText{
 	0%{		color: #000;	}
 	49%{	color: transparent;	}
