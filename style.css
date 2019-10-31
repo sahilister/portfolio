@@ -6,7 +6,6 @@ body {
 }
 nav {
     position: sticky;
- 
     text-align: right;
     display: block;
     block-size: 70px;
@@ -53,6 +52,12 @@ h1 {
     text-shadow: 1px 1px 4px #FF0000;  
     
 } 
+#welcome-section {
+    display: block;
+    background-color: cornflowerblue;
+    height: 100vh;
+   
+}
 #welcome-section h2 {
     font-family: 'Libre Barcode 39 Text', cursive;
     text-align: center;
@@ -85,7 +90,7 @@ h4 {
 
 #blinker1 {
     display: inline;
-    animation:blinkingText 2s infinite;
+    animation:blinkingText 1.5s infinite;
 }
 
 #blinker2 {
@@ -103,7 +108,9 @@ h4 {
 	99%{	color:transparent;	}
 	100%{	color: #000;	}
 }
-#welcome-section {
-
-    background-color: cornflowerblue;
+img {
+    display: block;
+    max-width: 30%;
+    height: auto;
+    margin: 10px;
 }
