@@ -124,3 +124,25 @@ img {
     padding: 5vmax;
     
 }
+
+
+footer {
+    position: sticky;
+    display: block;
+    block-size: 200px;
+    background-color: #b9b8b5; 
+    text-decoration: none;
+    text-align: center;
+}
+
+i {
+    margin-top: 5px;
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10%;
+    
+}
+.fa-layers-text fa-inverse {
+    font-size: 12rem;
+}
