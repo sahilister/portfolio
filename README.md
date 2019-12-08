@@ -1,9 +1,8 @@
 # The Portfolio Site
 
 
-Portfolio version 1.0 . 
+### [Live Version v1.0](https://sahilister.now.sh/)
 
-Deployed at https://sahilister.now.sh/
 
 ### Todo
 
