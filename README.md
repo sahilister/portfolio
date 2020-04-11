@@ -1,9 +1,5 @@
 # The Portfolio Site
 
-
-### [Live Version v1.0](https://sahilister.now.sh/)
-
-
 ### Todo
 
 - make site responsive
